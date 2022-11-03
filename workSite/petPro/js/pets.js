@@ -12,9 +12,9 @@ const pets = [
   },
   { name:"Bash",
     type:"Dog",
-    breed:"dochshund",
+    breed:"dachshund",
     age: 3, 
-    photo:"img/dochshund.jpg"
+    photo:"img/dachshund.jpg"
   },
   { name:"Drax",
     type:"Dog",

@@ -7,7 +7,7 @@ for(let i = 0; i <pets.length; i++) {
       <h2>${pet.name}</h2>
       <h3>${pet.type} | ${pet.breed}</h3>
       <p> Age: ${pet.age} </p>
-      <img src ="${pet.image}" alt = "${pet.breed}">
+      <img src ="${pet.photo}" alt = "${pet.breed}">
     `;
 }
 

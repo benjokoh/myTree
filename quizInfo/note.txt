@@ -1,0 +1,16 @@
+document.querySelector('a'), spelled with an e, would give you the first element with an <a> tag in your html. 
+To select all the elements with an <a> tag, you could do document.querySelectorAll('a').
+The challenge wants you to select only the <a> elements in the <nav> element, and recommends using a descendant selector. 
+To use a descendant selector, you use two tag names and separate them by a space. 
+The left tag name refers to the parent element and the right tag name refers to the child element.
+To specify <a> elements within your <nav> element, it would be nav a.
+You can replace the 'a' in document.querySelectorAll('a') with 'nav a' to select all of the <a> elements in the <nav> elements, 
+and exclude any <a> elements that are not children of a <nav> element.
+
+
+
+
+<<<let footerImages = document.querySelectorAll('footer img');>>>
+
+The footer is an HTML element, not a class or ID, so it doesn't require the # or . before it. 
+You only need to state img once because you're using .document.querySelectorAll() for this variable.
